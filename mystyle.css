@@ -1,0 +1,100 @@
+body {
+  background-color: white; }
+
+h1 {
+  color: navy;
+  margin-left: 20px; }
+
+div.left-color {
+  border-left-color: blue; }
+
+.fakeimg {
+  height: 200px; }
+
+.list {
+  list-style: black circle;
+  font: 350% sans-serif; }
+
+ul {
+  font-family: sans-serif;
+  font-weight: bolder; }
+
+.intro, p.hometown, #h2 {
+  background-color: yellow; }
+
+a:link {
+  color: green; }
+a:hover {
+  color: red; }
+
+.borde {
+  background-color: gray;
+  height: 50px;
+  text-aLign: center; }
+
+.borde1 {
+  background-color: blue;
+  height: 50px;
+  text-aLign: center; }
+
+.borde2 {
+  height: 50px;
+  text-aLign: center;
+  background-color: olivedrab; }
+
+.borde3 {
+  height: 50px;
+  text-aLign: center;
+  background-color: orangered; }
+
+.carousel-inner {
+  max-height: 800px;
+  width: 100%; }
+  .carousel-inner img {
+    width: 100%;
+    max-height: 800px; }
+
+.v-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  .v-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%; }
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: blue; }
+
+header h1 {
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.list-group {
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: red; }
+
+.list-group-item {
+  background-color: inherit;
+  font-family: inherit;
+  color: inherit; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
+@media screen and (max-width: 500px) {
+  background-color: lightblue; }
+
+/*# sourceMappingURL=mystyle.css.map */

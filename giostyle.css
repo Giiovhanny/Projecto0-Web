@@ -1,0 +1,23 @@
+#myCarousel img {
+  background-color: black;
+  max-height: 100%;
+  width: 100%x;
+  margin: auto;
+}
+.carousel-inner img{
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.intro {
+  background-color: yellow;
+}
+
+
+.module {
+  color: red;
+}

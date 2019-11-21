@@ -1,0 +1,147 @@
+$color: white;
+$color2: red;
+
+body {
+  background-color: $color;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+div.left-color {
+  border-left-color: blue;
+}
+
+.fakeimg {
+  height: 200px;
+}
+
+.list {
+  list-style: black circle;
+  font: 350% sans-serif;
+}
+
+ul {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.intro, p.hometown, #h2 {
+  background-color: yellow;
+}
+
+a {
+  &:link {
+    color: green;
+  }
+
+  &:hover {
+    color: red;
+  }
+}
+
+.borde {
+  background-color: gray;
+  height: 50px;
+  text-aLign: center;
+}
+
+.borde1 {
+  background-color: blue;
+  height: 50px;
+  text-aLign: center;
+}
+
+.borde2 {
+  height: 50px;
+  text-aLign: center;
+  background-color: olivedrab;
+}
+
+.borde3 {
+  height: 50px;
+  text-aLign: center;
+  background-color: orangered;
+}
+
+.carousel-inner {
+  img {
+    width: 100%;
+    max-height: 800px;
+  }
+
+  max-height: 800px;
+  width: 100%;
+}
+
+.v-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: blue;
+}
+
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+header{
+    h1{
+        color: $color2;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+.list-group{
+    background-color:  $color;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  $color2;
+}
+
+.list-group-item{
+    background-color: inherit;
+    font-family: inherit;
+    color: inherit
+}
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+
+  border-color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  background-color: lightblue;
+}
